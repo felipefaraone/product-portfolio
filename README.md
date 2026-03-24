@@ -8,7 +8,7 @@
 
 11 product cases from two companies, spanning enterprise B2B SaaS, B2C subscription platforms, AI product delivery, compliance automation, and data governance. Each project includes the problem, my specific role and decisions, results with numbers, and the documentation I produced as PM.
 
-I work at the intersection of technical systems and product strategy. The projects below reflect that: an AI agent with schema-bound guardrails in a regulated environment, a compliance integration suite built on a Lead Type inheritance model I designed, a 335k-subscriber migration with zero billing disruptions, and a data platform that cut over-communication by 54%.
+I work at the intersection of technical systems and product strategy. The projects below reflect that: an AI agent that reduced enterprise onboarding from days to minutes, a compliance engine with six integrations and a rules system that applies everywhere, a 335k subscriber migration with zero billing disruptions, and a data platform that cut over-communication by 54%.
 
 ---
 
@@ -19,7 +19,7 @@ Sole PM across two products (LeadExec, SalesExec) serving Fortune 500 clients in
 | # | Project | Domain | Status | Key Result |
 |---|---------|--------|--------|------------|
 | 01 | [MCP AI Assistant](./clickpoint/01-mcp-ai-assistant/) | AI / Onboarding | Shipped | Onboarding time from days to <15 min; zero schema violations; deterministic AI agent in production |
-| 02 | [Integrations Ecosystem](./clickpoint/02-integrations-ecosystem/) | Compliance / Platform | Shipped | 6 compliance integrations; Lead Type inheritance model; TCPA validation suite |
+| 02 | [Integrations Ecosystem](./clickpoint/02-integrations-ecosystem/) | Compliance / Platform | Shipped | 6 compliance integrations; rules engine for automated validation; ~80% faster campaign setup |
 | 03 | [Ping/Post Redesign](./clickpoint/03-ping-post-redesign/) | Platform / UX | Shipped | Setup time from ~45 min to ~15 min; unified editor; duplicated config eliminated |
 | 04 | [UI/Performance](./clickpoint/04-ui-performance/) | Platform / Infrastructure | Shipped | Lead Grid from 20–30s to <3s; filter freezes eliminated; CS escalations −60% |
 

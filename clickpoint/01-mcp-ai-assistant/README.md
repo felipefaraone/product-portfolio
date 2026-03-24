@@ -6,7 +6,7 @@
 
 ## One-Sentence Summary
 
-Designed and delivered a deterministic AI assistant that reduced enterprise onboarding setup time from days of manual work to under 15 minutes.
+Designed and shipped an AI agent that walks enterprise clients through product setup in a single conversation, reducing onboarding time from days to under 15 minutes.
 
 ---
 

@@ -13,7 +13,7 @@ I am the sole PM across both products. Full autonomy: strategy, roadmap, OKRs, d
 | # | Project | Domain | Status | Key Result |
 |---|---------|--------|--------|------------|
 | 01 | [MCP AI Assistant](./01-mcp-ai-assistant/) | AI / Onboarding | Shipped | Onboarding time from days to <15 min; zero schema violations; deterministic AI agent in production |
-| 02 | [Integrations Ecosystem](./02-integrations-ecosystem/) | Compliance / Platform | Shipped | 6 compliance integrations; Lead Type inheritance model; TCPA validation suite |
+| 02 | [Integrations Ecosystem](./02-integrations-ecosystem/) | Compliance / Platform | Shipped | 6 compliance integrations; rules engine for automated validation; ~80% faster campaign setup |
 | 03 | [Ping/Post Redesign](./03-ping-post-redesign/) | Platform / UX | Shipped | Setup time from ~45 min to ~15 min; unified editor; duplicated config eliminated |
 | 04 | [UI/Performance](./04-ui-performance/) | Platform / Infrastructure | Shipped | Lead Grid from 20–30s to <3s; filter freezes eliminated; CS escalations −60% |
 

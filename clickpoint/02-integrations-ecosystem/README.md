@@ -2,20 +2,20 @@
 
 **ClickPoint Software · LeadExec · Jan 2024 – Dec 2024**
 
-A program-level redesign of the integrations infrastructure, delivering six compliance integrations, Lead Type-level inheritance model, and centralised configuration hub — eliminating repetitive per-campaign setup and unblocking enterprise clients in regulated industries.
+A full redesign of the integrations system. I shipped six compliance integrations and a rules engine that lets clients configure validation once and apply it across all their campaigns automatically. This eliminated hundreds of duplicate setups and unblocked enterprise clients in regulated industries.
 
 ---
 
 ## Summary (30-Second Scan)
 
-**Problem:** LeadExec had no unified way for enterprise clients to manage third-party lead validation services or configure integrations globally — all configuration had to be repeated at the campaign level, creating hundreds of duplicate setups for clients managing large fleets of campaigns.
+**Problem:** Enterprise clients had no way to set up compliance checks once and have them apply everywhere. Every campaign had to be configured individually, creating hundreds of duplicate setups for clients with many campaigns.
 
 **Role:** Sole PM across the entire program, spanning discovery, competitive analysis, architectural decisions, compliance integration delivery, page redesign coordination, and cross-team execution.
 
 **Results:**
 - 6 compliance integrations shipped (PureCallerID, TrustedForm, Trestle, DNC.com, IPQS, Abstract API)
-- Lead Type inheritance model delivered — configure once, inherit across all campaigns
-- Competitive differentiation: no competitor offers this level of centralised management
+- Rules engine delivered — clients configure validation once, and it applies across all campaigns automatically
+- Competitive differentiation: no competitor offers this level of centralised compliance management
 - AHS (Fortune 500) unblocked on compliance requirements
 
 ---
