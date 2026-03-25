@@ -33,7 +33,7 @@ Sole PM across a 60+ engineer organisation during a period of high growth (250k 
 
 | # | Project | Domain | Status | Key Result |
 |---|---------|--------|--------|------------|
-| 01 | [GBB Subscription Transformation](./brasil-paralelo/01-gbb-subscription-transformation/) | Monetisation / Program | Shipped | 335k subscribers migrated; R$27.4M lifetime PBT; 15+ SKUs → 3 tiers |
+| 01 | [GBB Subscription Transformation](./brasil-paralelo/01-gbb-subscription-transformation/) | Monetisation / Program | Shipped | 335k subscribers migrated; AUD 7.7M lifetime PBT; 15+ SKUs → 3 tiers |
 | 02 | [CRM and Contact Data Overhaul](./brasil-paralelo/02-crm-contact-data-overhaul/) | Data / CRM | Shipped | Sends/member −54%; list accuracy 58%→96%; re-engagement 13.4% vs 6.8% |
 | 03 | [Purchase Flow 1.0](./brasil-paralelo/03-purchase-flow/) | Acquisition | Shipped | First-login rate 85%→93%; 2,800+ leads captured from zero |
 | 04 | [Media Downloads 1.0](./brasil-paralelo/04-media-downloads/) | Content / Monetisation | Shipped | Unblocked GBB launch; 22% adoption in 30 days |

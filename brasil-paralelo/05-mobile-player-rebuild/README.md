@@ -20,7 +20,7 @@ Sole PM. Built the business case, defined the scope boundaries, and managed a cr
 
 **1. Financial case to justify a single-engineer Big Batch**
 
-Infrastructure work competes poorly for resources against user-facing features. I built the financial case: R$374,920 Year 1 PBT and R$8.8M lifetime value from enabling DRM content deals and supporting the GBB tier structure. This reframed the player rebuild from "technical debt" to "product investment with quantified return."
+Infrastructure work competes poorly for resources against user-facing features. I built the financial case: R$374,920 (~AUD 105K at 2022 rates) Year 1 PBT and R$8.8M (~AUD 2.5M at 2022 rates) lifetime value from enabling DRM content deals and supporting the GBB tier structure. This reframed the player rebuild from "technical debt" to "product investment with quantified return."
 
 **2. Eight explicit no-goes protecting focus**
 

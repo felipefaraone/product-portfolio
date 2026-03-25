@@ -148,4 +148,4 @@ The new player renders entirely within Flutter, enabling:
 - 2 new content distribution agreements were signed with partners who had previously required DRM compliance as a condition — this was the contractual blocker that made the rebuild non-negotiable.
 - The multi-context rendering capability (inline + sticky player) became the foundation for the redesigned catalog UX in Q3 2022, where the detail page player replaced a static thumbnail.
 
-**Financial context:** The projected cumulative PBT of R$374,920 in Year 1 and R$8.8M over the product lifetime was used to justify the single-engineer Big Batch allocation. The player rebuild was framed as infrastructure investment, not feature work — the ROI case was the series of capabilities it unlocked, not the player itself.
+**Financial context:** The projected cumulative PBT of R$374,920 (~AUD 105K at 2022 rates) in Year 1 and R$8.8M (~AUD 2.5M at 2022 rates) over the product lifetime was used to justify the single-engineer Big Batch allocation. The player rebuild was framed as infrastructure investment, not feature work — the ROI case was the series of capabilities it unlocked, not the player itself.

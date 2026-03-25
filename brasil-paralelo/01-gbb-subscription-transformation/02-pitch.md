@@ -55,7 +55,7 @@ This layer must be live and stable before the migration cycle can begin — ever
 | Scenario | Population | Resolution |
 |----------|-----------|------------|
 | Members with duplicate subscriptions | ~5,000+ | Keep most recent paid; cancel others |
-| Founders with additional paid plans | ~3,230 | Map to Good; protect R$2.6M ARR |
+| Founders with additional paid plans | ~3,230 | Map to Good; protect R$2.6M (~AUD 730K at 2022 rates) ARR |
 | Mecenas (premium donors) | ~1,042 | Maintain locally; don't touch Guru |
 | Unactivated gift cards | ~9,000 | CS action or refund |
 | Manual/promotional subscriptions | ~3,598 | Include in mapping |
@@ -79,7 +79,7 @@ This layer must be live and stable before the migration cycle can begin — ever
 
 - **Payment engine cutover timing:** Mundipagg subscriptions processing mid-cycle would land in Guru in an inconsistent state if the cutover wasn't sequenced correctly. Solution: feature flag with a defined cutover moment tied to a monitored rollout.
 - **Duplicate subscription logic:** Members with multiple subscriptions for the same plan were more common than expected (~780 bp-select duplicates alone). Mapping algorithm had to handle this explicitly.
-- **Founders:** ~12k founders, ~3,230 with additional paid plans generating R$2.6M ARR. Their migration had to be handled with care — wrong mapping could trigger unexpected billing changes on high-value accounts.
+- **Founders:** ~12k founders, ~3,230 with additional paid plans generating R$2.6M (~AUD 730K at 2022 rates) ARR. Their migration had to be handled with care — wrong mapping could trigger unexpected billing changes on high-value accounts.
 - **Renewal-time race condition:** The subscriber base is dynamic. A member's state at migration time might differ from their state at last data pull. Migration was designed to run against live subscription state, not a snapshot.
 - **Access continuity:** If a migrated member hadn't yet consumed a feature that's now in their tier (e.g., downloads becoming available for Better members), their access should expand, not contract. Required explicit validation that tier upgrades never reduced access.
 

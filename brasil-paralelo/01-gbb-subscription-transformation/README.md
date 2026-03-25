@@ -15,7 +15,7 @@ BP had 15+ subscription plans differentiated by content category — no upgrade 
 - **~335,634 subscribers migrated** with zero billing disruptions and zero critical outages
 - Plan distribution: Good 251,392 · Better 20,205 · Best 64,037
 - 15+ plan SKUs retired; acquisition now operates on a single, coherent tier structure
-- Projected lifetime PBT: **R$27,387,500** on a program cost of R$70,000
+- Projected lifetime PBT: **R$27,387,500 (~AUD 7.7M at 2022 rates)** on a program cost of R$70,000 (~AUD 20K at 2022 rates)
 
 ---
 

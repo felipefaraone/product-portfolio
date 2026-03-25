@@ -18,7 +18,7 @@
 | Scenario | Population | Resolution | Outcome |
 |----------|-----------|-----------|---------|
 | Duplicate subscriptions | ~5,000+ | Kept most recent paid; cancelled others | All resolved ✅ |
-| Founders with additional paid plans | ~3,230 | Mapped to Good; communicated separately | R$2.6M ARR protected ✅ |
+| Founders with additional paid plans | ~3,230 | Mapped to Good; communicated separately | R$2.6M (~AUD 730K at 2022 rates) ARR protected ✅ |
 | Mecenas (premium donors) | ~1,042 | Maintained locally; Guru untouched | Zero billing changes ✅ |
 | Unactivated gift cards | ~9,000 | CS action or refund | Processed separately ✅ |
 | Manual/promotional subscriptions | ~3,598 | Included in mapping algorithm | All accounted for ✅ |
@@ -27,7 +27,7 @@
 
 **Plan simplification:** 15+ legacy SKUs retired; acquisition now operates on a single, coherent tier structure.
 
-**Revenue trajectory:** Projected lifetime PBT of **R$27,387,500** on a program cost of R$70,000 (391:1 ratio).
+**Revenue trajectory:** Projected lifetime PBT of **R$27,387,500 (~AUD 7.7M at 2022 rates)** on a program cost of R$70,000 (~AUD 20K at 2022 rates) (391:1 ratio).
 
 **Member experience:** Clear value ladder for the first time — Good → Better → Best. Each tier upgrade has a tangible, demonstrable benefit.
 
