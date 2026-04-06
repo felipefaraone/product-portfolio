@@ -18,12 +18,22 @@ Sole PM across two products (LeadExec, SalesExec) serving Fortune 500 clients in
 
 | # | Project | Domain | Status | Key Result |
 |---|---------|--------|--------|------------|
-| 01 | [MCP AI Assistant](./clickpoint/01-mcp-ai-assistant/) | AI / Onboarding | Shipped | Onboarding time from days to <15 min; zero schema violations; deterministic AI agent in production |
+| 01 | [MCP AI Assistant](./clickpoint/01-mcp-ai-assistant/) | AI / Onboarding | Shipped | Shipped production MCP assistant; onboarding from days to <15 min. Post-ship telemetry revealed architectural limitations that led to a strategic pivot. See also: [ai-setup-patterns](https://github.com/felipefaraone/ai-setup-patterns) |
 | 02 | [Integrations Ecosystem](./clickpoint/02-integrations-ecosystem/) | Compliance / Platform | Shipped | 6 compliance integrations; rules engine for automated validation; ~80% faster campaign setup |
 | 03 | [Ping/Post Redesign](./clickpoint/03-ping-post-redesign/) | Platform / UX | Shipped | Setup time from ~45 min to ~15 min; unified editor; duplicated config eliminated |
 | 04 | [UI/Performance](./clickpoint/04-ui-performance/) | Platform / Infrastructure | Shipped | Lead Grid from 20–30s to <3s; filter freezes eliminated; CS escalations −60% |
 
 **What these show:** How I work in an enterprise B2B environment with legacy architecture, a small team, and direct CEO relationship. Discovery is iterative, not upfront. Scope evolves through testing, not through planning documents. The MCP AI Assistant retrospective and the Integrations Ecosystem architecture debate are the most revealing documents in this section.
+
+---
+
+## AI Research & Open Source
+
+| # | Project | What it is |
+|---|---|---|
+| 01 | [ai-setup-patterns](https://github.com/felipefaraone/ai-setup-patterns) | Architectural analysis of monolithic vs embedded AI helpers in B2B SaaS setup flows. Based on production telemetry data. Includes a live interactive demo. |
+
+**What this shows:** How I think about AI product architecture beyond individual feature delivery — extracting transferable patterns from production experience and connecting them to broader industry trends.
 
 ---
 
