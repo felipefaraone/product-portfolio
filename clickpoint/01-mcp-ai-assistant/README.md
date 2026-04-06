@@ -45,3 +45,8 @@ I was the Product Manager for this initiative. Worked closely with the designer,
 | [05-results.md](./05-results.md) | Outcomes and learnings — what we shipped, what users experienced, what to do next |
 | [06-prompt-strategy.md](./06-prompt-strategy.md) | Technical depth — three-layer prompt architecture and deterministic execution model |
 | [07-retrospective.md](./07-retrospective.md) | Team retrospective — what went well, what could improve, key takeaways |
+
+---
+
+For the architectural analysis and strategic direction that emerged from this project, see [ai-setup-patterns](https://github.com/felipefaraone/ai-setup-patterns).
+
