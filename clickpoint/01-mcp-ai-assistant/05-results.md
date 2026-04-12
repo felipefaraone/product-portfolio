@@ -1,4 +1,4 @@
-# MCP AI Assistant — Results and Outcomes
+# MCP AI Assistant: Results and Outcomes
 
 ## What We Shipped
 
@@ -22,7 +22,7 @@ The assistant walks users through the entire configuration in a single session, 
 ### Support Intervention
 **Measurable reduction in CS intervention for onboarded accounts.**
 
-Early production data shows users completing setup flows with less support than before. The assistant collects required data clearly, handles errors with helpful retries, and confirms all configurations before activation — reducing the need for manual troubleshooting.
+Early production data shows users completing setup flows with less support than before. The assistant collects required data clearly, handles errors with helpful retries, and confirms all configurations before activation, reducing the need for manual troubleshooting.
 
 ### Safety and Integrity
 **Zero unsafe tool calls or unexpected AI behaviour in production.**
@@ -32,7 +32,7 @@ The deterministic prompt framework with schema validation at the tool boundary p
 ### Real Adoption
 **Production usage across multiple companies and users.**
 
-The assistant saw meaningful engagement post-launch. Real users — not just internal testers — completed setup workflows using the assistant, demonstrating that the approach was viable in practice.
+The assistant saw meaningful engagement post-launch. Real users, not just internal testers, completed setup workflows using the assistant, demonstrating that the approach was viable in practice.
 
 ### Foundation for the Next Cycle
 **Stable, reusable infrastructure established.**
@@ -51,38 +51,36 @@ These assets carry forward into the next cycle without rework.
 
 ## What Users Experienced
 
-Production usage data shows real activity across the main setup flows. Early feedback indicates:
+Production usage data showed real activity across the main setup flows. Users were starting sessions, creating entities, and configuring integrations. In guided runs, the experience was noticeably smoother: less confusion, clearer confirmations, and fewer wrong choices thanks to Adaptive Cards with predefined options.
 
-- **Faster activation:** Users moved through setup without getting stuck or restarting mid-process
-- **Reduced confusion:** The guided experience with clear confirmations and summaries helped users understand what they were configuring
-- **Increased confidence:** Adaptive Cards with predefined options and field mapping previews helped users make correct choices
+But adoption data told a more nuanced story. Users would start with the assistant, hit friction, and finish manually. The assistant only covered a slice of the total setup. Users still needed to navigate the product for everything else, so the chat became a detour from a journey they needed to take regardless. The assistant proved interest in guided setup, but it didn't change behavior in a sustained way.
 
 ---
 
-## What This Proved
+## What We Learned
 
-1. **AI can perform structured configuration safely.** The deterministic model with schema enforcement prevented errors and made the system trustworthy.
+1. **AI can perform structured configuration safely.** The deterministic model with schema enforcement prevented errors and kept the system trustworthy in production.
 
-2. **Guided UX beats free-form chat for onboarding.** Conversational tone + structured cards + automatic progression created a better experience than either approach alone.
+2. **Guided UX works better than free-form chat for setup flows, but both lose to manual when the user needs to learn the product anyway.** Conversational tone with structured cards created a better experience than pure chat, but the deeper issue was that the assistant competed with the user's need to understand the product. That's a product strategy insight, not a technical one.
 
-3. **Scope expansion isn't failure — it's learning.** Starting narrow and expanding based on real testing delivered actual product value instead of a disconnected demo.
+3. **Scope expansion isn't failure, it's learning.** Starting narrow and expanding based on real testing delivered actual product value instead of a disconnected demo.
 
-4. **New technology requires overlapped discovery and delivery.** The timeline extended not due to poor planning, but because working with new tools requires real-time learning. This is manageable with transparent communication.
+4. **New technology requires overlapped discovery and delivery.** The timeline extended because working with new tools requires real-time learning. This is manageable with transparent communication.
 
 ---
 
-## Next Cycle
+## Next Cycle (as originally planned)
 
-The next iteration has been defined with the following scope:
+The next iteration was originally scoped as:
 
-- **Client Setup Flow expansion** — deeper onboarding for new customer accounts
-- **Connection testing** — validation that configured Webhooks and FTP connections are actually live
-- **Telemetry dashboards** — observability into which flows users complete, where they drop off, and adoption by company
-- **Multi-session context** — conversation memory across sessions for returning users
-- **Additional delivery types** — Ping/Post support
-- **Public beta** — gradual feature-flag exposure beyond internal testers
+- **Client Setup Flow expansion** for new customer accounts
+- **Connection testing** for Webhooks and FTP
+- **Telemetry dashboards** for completion, drop-off, and adoption tracking
+- **Multi-session context** for returning users
+- **Additional delivery types** (Ping/Post)
+- **Public beta** via gradual feature-flag exposure
 
-The foundation built in the MVP enables all of this without rework.
+The foundation built in the MVP would have enabled all of this without rework. However, based on the strategic assessment below, the direction shifted. See [ai-setup-patterns](https://github.com/felipefaraone/ai-setup-patterns) for the full analysis of why embedded helpers became the recommended path forward.
 
 ---
 
@@ -90,15 +88,19 @@ The foundation built in the MVP enables all of this without rework.
 
 Several months after launch, I documented an honest strategic analysis: the assistant showed real usage, but telemetry did not yet demonstrate strong business impact on completion rates, activation improvement, or CS effort reduction.
 
-**Recommendation:** Keep the assistant stable but explore smaller, embedded AI helpers for specific high-friction tasks — field mapping, posting instructions parsing, lead type generation. This direction is more aligned with current AI product patterns and defensible with current LLM capabilities.
+**Recommendation:** Keep the assistant stable but explore smaller, embedded AI helpers for specific high-friction tasks: field mapping, posting instructions parsing, lead type generation. This direction is more aligned with current AI product patterns and defensible with current LLM capabilities.
 
 This informed the next cycle direction and represented PM accountability for honest evaluation of what the product had and hadn't proven.
 
 ---
 
+For the full architectural analysis, production data insights, and the embedded helper pattern that emerged from this project, see [ai-setup-patterns](https://github.com/felipefaraone/ai-setup-patterns).
+
+---
+
 ## See Also
 
-- [03-pitch.md](./03-pitch.md) — the original MVP proposal
-- [04-delivery.md](./04-delivery.md) — how we executed and managed scope
-- [07-retrospective.md](./07-retrospective.md) — team retrospective and learning themes
-- [06-prompt-strategy.md](./06-prompt-strategy.md) — technical architecture detail
+- [03-pitch.md](./03-pitch.md). The original MVP proposal
+- [04-delivery.md](./04-delivery.md). How we executed and managed scope
+- [07-retrospective.md](./07-retrospective.md). Team retrospective and learning themes
+- [06-prompt-strategy.md](./06-prompt-strategy.md). Technical architecture detail
