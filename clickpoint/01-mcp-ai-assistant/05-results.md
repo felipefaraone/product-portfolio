@@ -53,7 +53,7 @@ These assets carry forward into the next cycle without rework.
 
 Production usage data showed real activity across the main setup flows. Users were starting sessions, creating entities, and configuring integrations. In guided runs, the experience was noticeably smoother: less confusion, clearer confirmations, and fewer wrong choices thanks to Adaptive Cards with predefined options.
 
-But adoption data told a more nuanced story. Users would start with the assistant, hit friction, and finish manually. The assistant only covered a slice of the total setup. Users still needed to navigate the product for everything else, so the chat became a detour from a journey they needed to take regardless. The assistant proved interest in guided setup, but it didn't change behavior in a sustained way.
+Adoption data told a more nuanced story. Users would start with the assistant, hit friction, and finish manually, because it covered only a slice of the total setup. That surfaced a sharp product insight: the assistant competed with the user's need to learn the product, rather than removing it. This proved the technical thesis, that AI can drive configuration safely, while showing the business thesis, that guided setup alone changes activation, was not yet supported. Naming that distinction is what drove the next direction.
 
 ---
 
@@ -86,7 +86,7 @@ The foundation built in the MVP would have enabled all of this without rework. H
 
 ## Strategic Assessment (March 2026)
 
-Several months after launch, I documented an honest strategic analysis: the assistant showed real usage, but telemetry did not yet demonstrate strong business impact on completion rates, activation improvement, or CS effort reduction.
+Several months after launch I documented an honest strategic analysis. The assistant proved what it needed to on the technical side: safe execution in production, zero unsafe tool calls, setup time down from days to under fifteen minutes, real adoption across multiple companies. On the business side, telemetry did not show a sustained lift in activation or CS effort, because the assistant covered only part of the journey. I treated that as a signal, not a verdict, and used it to recommend a sharper direction rather than defend the original bet.
 
 **Recommendation:** Keep the assistant stable but explore smaller, embedded AI helpers for specific high-friction tasks: field mapping, posting instructions parsing, lead type generation. This direction is more aligned with current AI product patterns and defensible with current LLM capabilities.
 
