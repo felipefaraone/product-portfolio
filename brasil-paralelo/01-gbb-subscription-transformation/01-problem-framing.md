@@ -2,7 +2,7 @@
 
 ## The Strategic Problem
 
-Brasil Paralelo had accumulated 15+ subscription plans over several years — each originally designed to offer content differentiation (Patriota, Núcleo de Formação, Sociedade do Livro, Clube da Música, Premium, Mecenas, Fraterno, BP Select, and others). The model made sense in an earlier phase of the business, but by 2022 it was actively holding the company back.
+Brasil Paralelo sold seven separate content subscriptions (Patriota, BP Select, Sociedade do Livro, and others), packaged and priced as 15+ purchasable plans. Seven products, fifteen ways to buy them.
 
 ### Why It Mattered Now
 
@@ -37,6 +37,15 @@ Technology as the differentiator instead of content:
 | **Good** | Single screen, standard resolution |
 | **Better** | Multi-screen, offline downloads |
 | **Best** | All features, highest resolution |
+
+or
+
+| Tier | Core differentiator |
+|------|---------------------|
+| **Básico** | Single screen, standard resolution |
+| **Intermediário** | Multi-screen, Downloads, Full HD |
+| **Acesso Total 4K** | Everything, 4K, courses |
+
 
 This created a clear value ladder where each tier upgrade had a tangible, demonstrable benefit — the same model Netflix and Spotify use.
 
