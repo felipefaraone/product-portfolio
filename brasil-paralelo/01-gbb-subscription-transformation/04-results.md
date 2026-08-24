@@ -25,11 +25,15 @@
 
 ## Business Impact
 
-**Plan simplification:** 15+ legacy SKUs retired; acquisition now operates on a single, coherent tier structure.
+**Plan simplification:** Seven content subscriptions and 15+ legacy plan SKUs retired; acquisition now operates on a single, coherent tier structure.
 
-**Revenue trajectory:** Projected lifetime PBT of **R$27,387,500 (~A$7.7M at 2022 rates)** on a program cost of R$70,000 (~A$20K at 2022 rates) (391:1 ratio).
+**Revenue (measured):** Annual revenue doubled in the 12 months following the migration.
 
-**Member experience:** Clear value ladder for the first time — Good → Better → Best. Each tier upgrade has a tangible, demonstrable benefit.
+**Churn (measured):** Annual churn fell from 58% to 28% (roughly 7% to 3% monthly) over the same period, alongside the platform capabilities that shipped with it (downloads, multi-screen, self-management). Still trending down when I left.
+
+**Revenue trajectory (projected):** Lifetime PBT of R$27,387,500 (~A$7.7M at 2022 rates) on a program cost of R$70,000 (~A$20K at 2022 rates) (391:1 ratio).
+
+**Member experience:** Clear value ladder for the first time — Básico → Intermediário → Acesso Total 4K. Each tier upgrade has a tangible, demonstrable benefit.
 
 **Operational efficiency:** Reduced plan variants from 15+ to 3. Fewer communication templates, fewer billing configurations, fewer edge cases to handle in downstream systems.
 
