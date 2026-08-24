@@ -46,7 +46,7 @@ This document covers the decisions made during execution that kept the program o
 **Why it mattered:** Migrating 335,634 subscribers requires handling:
 - 15+ legacy subscription types
 - 12,000 founders, 3,230 with additional paid plans generating R$2.6M (~A$730K at 2022 rates) in protected ARR
-- ~780 duplicate subscriptions (members who accidentally ended up with multiple active plans)
+- ~5,000+ duplicate subscriptions (members who accidentally ended up with multiple active plans)
 - ~9,000 unactivated gift cards
 - Members with manual subscriptions alongside paid subscriptions
 - Subscribers who originated from Hotmart, requiring separate resolution
